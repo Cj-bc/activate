@@ -1,9 +1,11 @@
 #!/usr/bin/env bash
 #
+# activate : activate your local working env
+#
 # Copyright 2018 (c) Cj-bc
 # This software is released under MIT License
 #
-# @(#) version -
+# @(#) version 1.0.0
 
 [ ! -f '.activate' ] && exit
 
