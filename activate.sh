@@ -9,7 +9,7 @@
 
 
 function activate {
-  [ ! -f '.activate' ] && exit
+  [ ! -f '.activate' ] && { echo "config not found"; return; }
 
   while read command actuall_codes; do
     echo -n "Initialize '$command'..."
