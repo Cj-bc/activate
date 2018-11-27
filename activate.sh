@@ -5,12 +5,15 @@
 # Copyright 2018 (c) Cj-bc
 # This software is released under MIT License
 #
-# @(#) version 1.0.0
+# @(#) version 1.1.0
 
-[ ! -f '.activate' ] && exit
 
-while read command actuall_codes; do
-  echo -n "Initialize '$command'..."
-  eval 'alias $command="$actuall_codes"'
-  echo "Done"
-done < '.activate'
+function activate {
+  [ ! -f '.activate' ] && exit
+
+  while read command actuall_codes; do
+    echo -n "Initialize '$command'..."
+    eval 'alias $command="$actuall_codes"'
+    echo "Done"
+  done < '.activate'
+}
