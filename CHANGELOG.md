@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.1.1] - 2018/11/28 [YANKED]
+### Fixed
+  - Don't 'exit' if configure file desn't exist
+
 ## [1.1.0] - 2018/11/27
 ### Changed
   - Make it function so that we can source file itself

@@ -5,7 +5,7 @@
 # Copyright 2018 (c) Cj-bc
 # This software is released under MIT License
 #
-# @(#) version 1.1.0
+# @(#) version 1.1.1
 
 
 function activate {
